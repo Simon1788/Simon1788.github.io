@@ -9,7 +9,8 @@
 title: Practise Holiday Blog
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is a site to see what I can do with code. I am going to upload some holiday pictures, comment on some of them and hopefully give users the ability to interact with the site.
+  This is a site to see what I can do with code. 
+  I am going to upload some holiday pictures, comment on some of them and hopefully give users the ability to interact with the site.
   
   
 baseurl: "" # the subpath of your site, e.g. /blog
