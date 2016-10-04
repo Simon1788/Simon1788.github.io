@@ -28,8 +28,6 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -42,12 +40,14 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+.photo {
+    border-color: $brand-color;
+    padding: 10px;
+    margin: 10px;
+};
