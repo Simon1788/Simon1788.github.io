@@ -48,9 +48,17 @@ $on-laptop:        800px;
 ;
 .photo {
     display: block;
-    width: 40%;
-    float:left;
     border-color: $brand-color;
     padding: 10px;
     margin: auto;
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+
+
 };
+
